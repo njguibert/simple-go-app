@@ -8,7 +8,7 @@ pipeline {
             		bat 'copy main.exe C:\\Appz\\Path'
             	}
             timeout(time: 3, unit: 'MINUTES') {
-                    bat 'echo ya waiting 3 minuto'
+                    bat 'echo ya aiting 3 minuto'
             	}                        
             }
         }
